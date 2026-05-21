@@ -90,6 +90,23 @@ Training includes:
 
 The proposed CNN model achieved strong performance for Pneumonia classification and demonstrated improvement using Dropout regularization techniques.
 
+---
+
+## Novelty
+Unlike traditional CNN models that apply dropout only in dense layers, this project integrates dropout within convolutional blocks to improve generalization and reduce overfitting.
+
+---
+
+## Performance Metrics
+
+## Results
+
+| Model | Accuracy | Precision | Recall | F1-Score | AUC |
+|------|------|------|------|------|------|
+| Without Dropout | 98.28% | 99.35% | 98.32% | 98.83% | 99.76% |
+| With 40% Dropout | 98.47% | 99.48% | 98.45% | 98.96% | 99.87% |
+
+---
 
 ## Research Paper Reference
 
